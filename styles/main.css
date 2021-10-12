@@ -1,0 +1,157 @@
+/* Reglas generales */
+body {
+    background: white;
+    font-size: 13px;
+    font-family: helvetica;
+}
+main section    {
+    margin-left: 15px;
+}
+
+h2{
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+   
+}
+
+li{
+    margin: 15px;
+    font-family: Helvetica;
+    font-weight: 700;
+
+}
+
+/* header */
+
+.header {
+    background-color: #00af1c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+  }
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.home h2  {
+    color: blue;
+}
+
+.services h2 {
+    color: #d206b2;
+}
+
+.service1 {
+    color: #ff0000;
+}
+
+.service2 {
+    color: blue;
+}
+
+.service3 {
+    color: orange;
+}
+
+.service4 {
+    color: lightblue;
+}
+
+
+
+.portfolio h2 {
+    color: #d206b2;
+}
+
+
+.portfolio1  {
+    color: orange;
+}
+
+.portfolio2  {
+    color: red;
+}
+
+.portfolio3  {
+    color: blue;
+}
+
+.portfolio4  {
+    color: green;
+}
+
+.contact h2 {
+    color: #06d2c6;
+}
+
+/* form */
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .name {
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+ .form textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .form button {
+
+    background-color: #fff;
+    border-style: double;
+    width: 15%;
+    padding: 20px;
+    color: #22a900;
+    font-family: Helvetica;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  /* footer */
+  .footer {
+    background-color: #00af1c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  white;
+  }
